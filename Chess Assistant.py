@@ -1,8 +1,4 @@
-#Python
-#Module 4 - Sprint 1
-#Project review
-#-----------------------------------------------------------
-#A Chess question
+# Chess Assistant
 
 def main():
     chess_board = new_chess_board()
@@ -175,20 +171,3 @@ def pawn_captures(chess_board, pawn_location):
 
 
 main()
-
-# Structure (part of the coding process):
-
-# Ask the user to choose a WHITE chess piece between two options, and input location (e.g. pawn a2)
-# Print confirmation or error - if error, ask again.
-# Tell user that they can now input 1-16 black pieces, in the same format.
-# Ask user for a black piece and location.
-# Print confirmation or error - if error, ask again.
-# User can write "done" whenever they want to finish, after a min. of 1 piece and max. of 16 pieces.
-# Assume that "done" and piece format will be correct.
-# Coords are from a-h and 1-8.
-# Don't allow more than one piece in a certain location.
-# Don't allow more than 2x bishop, 2x rook, 2x knight, 8x pawn, 1x king, 1x queen.
-# Don't ask for more than 16 black pieces - indirectly resolved (I think!)
-# After the user is done, the program should print out the black pieces, if any, that can be taken by the white piece.
-
-# OPTIONAL: Print the board after each piece is taken
